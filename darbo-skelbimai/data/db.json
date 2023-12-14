@@ -1,0 +1,46 @@
+{
+    "careers": [
+        {
+            "id": 1,
+            "title": "Senior React Developer",
+            "salary": 4500,
+            "location": "Vilnius, Lithuania"
+        },
+        {
+            "id": 2,
+            "title": "Senior Fullstack Developer",
+            "salary": 3400,
+            "location": "Kaunas, Lithuania"
+        },
+        {
+            "id": 3,
+            "title": "UX/UI Designer",
+            "salary": 1900,
+            "location": "Riga, Latvia"
+        },
+        {
+            "id": 4,
+            "title": "Vue Developer",
+            "salary": 4800,
+            "location": "Vilnius, Lithuania"
+        },
+        {
+            "id": 5,
+            "title": "Data Analyst",
+            "salary": 3900,
+            "location": "Tallinn, Estonia"
+        },
+        {
+            "id": 6,
+            "title": "Python Developer",
+            "salary": 3100,
+            "location": "Vilnius, Lithuania"
+        },
+        {
+            "id": 7,
+            "title": "Java Developer",
+            "salary": 5000,
+            "location": "Tallinn, Estonia"
+        }
+    ]
+}

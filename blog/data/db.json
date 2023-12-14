@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "Mūsų pirmas įrašas",
+      "body": "Nuostabus pirmas įrašas",
+      "autorius": "Andrius",
+      "id": 1
+    },
+    {
+      "title": "Mūsų antras įrašas",
+      "body": "Nuostabus antras įrašas",
+      "autorius": "Diana",
+      "id": 2
+    },
+    {
+      "title": "Naujas",
+      "body": "naujo tekstas",
+      "autorius": "Dovilė",
+      "id": 3
+    },
+    {
+      "title": "Jei prieš tai \"naujas\" visgi trečias, tai dabar trečias :D",
+      "body": "Trečio įrašo turinys",
+      "autorius": "Valdemaras",
+      "id": 4
+    },
+    {
+      "title": "O diev suklydau ir tą, tai dabar žodžiu penktas... -_-",
+      "body": "Penkto įrašo tekstas",
+      "autorius": "Andrius",
+      "id": 5
+    }
+  ]
+}

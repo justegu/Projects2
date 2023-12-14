@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary: #bc4123;
+  --secondary: #2b3452;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary);
+}
+
+* {
+  color: #fff;
+  margin: 0;
+}
+
+p {
+  margin: 20px 0;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+/* navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+}
+
+header h1 {
+  border-bottom: 3px solid var(--primary);
+}
+
+header a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+header a.active {
+  background-color: var(--primary);
+}
+
+/* page content */
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+/* help */
+
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.help-layout nav a {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.help-layout nav a:hover {
+  border-color: var(--primary);
+}
+.help-layout nav a.active {
+  background-color: var(--primary);
+}
+/* faq */
+
+.faq .question {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* contact form */
+form {
+  margin-top: 30px;
+}
+
+form input,
+form label span,
+form textarea {
+  display: block;
+}
+
+form label span {
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  color: var(--secondary);
+}
+
+/* careers list */
+
+.careers > a {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.careers > a:hover p {
+  color: var(--primary);
+}
+
+.careers p {
+  margin: 0;
+}
+
+.careers > a p:last-child {
+  font-size: 0.8em;
+  color: #bbb;
+}
+/* careers details */
+
+.career-details {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* breadcrumbs */
+
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.breadcrumbs .crumb::after {
+  content: ">";
+  margin-left: 10px;
+}
+
+.breadcrumbs .crumb:last-child::after {
+  display: none;
+}
+
+.breadcrumbs .crumb a {
+  color: #ddd;
+}
